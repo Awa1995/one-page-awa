@@ -1,0 +1,150 @@
+
+nav ul {
+ 
+display: inline-block;
+list-style-type: none;
+
+}
+nav li {
+ 
+    float: flex;
+    display: inline-block;
+    
+    }
+article img{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    margin-top: 50px;
+   
+}
+ a{
+    
+    text-decoration: none;
+    color:black;
+    max-width: 15px;
+    text-align: right;
+    padding: 25px;
+    
+    
+    }
+nav{
+    float: flex;
+    display: inline-block;
+    justify-content: space-between;
+    flex: 9px;
+}
+nav ul li a:hover{
+color: aquamarine;    
+text-decoration: underline;
+
+
+}    
+.header {
+
+margin-left: 20px;
+margin-block: 10px;
+margin-right: 50px;
+}
+.header{
+float: right;
+}
+h1{
+    margin-left: 200px;
+    margin-top: 200px;
+    color: #a26b1c;
+    font-size: 60px;
+    font-family: sans-serif;
+    line-height: 80px;
+}
+aside{
+    float: right;
+    margin-top: -250px;
+
+}
+section{
+    text-decoration: solid;
+    color: black;
+    margin: auto;
+    font-size: 25px;
+    text-align: justify;
+    margin-top: 100px;
+    
+
+}
+#apropos{
+    margin-top: 400px;
+    font-family: sans-serif;
+    line-height: 30px;
+}
+form{
+    grid: 2fr;
+    display: flex;
+}
+hr{
+   color: #a26b1c; 
+}
+h3{
+    text-decoration: underline;
+    text-align: center;
+    font-size: 30px;
+
+}
+
+
+
+main img{
+    grid-template-rows: 40px;
+    grid-column: auto;
+    
+}
+.prod  img{
+    
+    width: 200px;
+    height: 200px;
+    align-items: flex-start;
+    align-content: space-between;
+    align-items: center;
+    
+}
+ .prod{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-left: 50px;
+
+ }  
+
+
+
+
+form{
+    display: block;
+    max-width: 600px;
+    padding: 100px;
+    padding-top: 80px;
+    background-color: #a26b1c;
+    border-radius: 10px;
+    margin-left: 350px;
+
+    
+}
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    
+}
+input[type="text"],
+input[type="email"],
+input[type="number"] {
+    width: 500px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+footer{
+    position: center;
+    margin-left: 650px;
+    scroll-padding-block: initial;
+    
+}
